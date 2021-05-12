@@ -47,6 +47,9 @@ box-shadow: 5px 5px 18px white;
     margin-top: 15px;
     background: rgb(163, 208, 245); 
     padding: 10px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2; 
 }
 
 #result{
@@ -76,5 +79,16 @@ box-shadow: 5px 5px 18px white;
 }
 
 .object_name_display_div{
- margin-left: 500px;
+ font-size: 23px;
+ background-color: wheat;
+ width: 100%;
+ text-align: center;
+}
+
+@keyframes example{
+    0% {right:0px; top:0px;}
+    25% {right:200px; top:0px;}
+    50% {right:200px; top:200px;}
+    75% {right:0px; top:200px;}
+    100% {right:0px; top:0px;}
 }
