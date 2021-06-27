@@ -31,7 +31,7 @@ body{
 #camera{
 border: 2px solid white;
 height: 300px;
-width: 310px;
+width: 400px;
 box-shadow: 5px 5px 18px white;    
 }
 
@@ -43,19 +43,24 @@ box-shadow: 5px 5px 18px white;
 }
 
 .snapshot_div{
-    border: 9px black dotted;
+    border: 2px solid black;
     margin-top: 15px;
     background: rgb(163, 208, 245); 
-    padding: 10px;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: 2; 
+    padding: 30px;
 }
 
 #result{
-    width:310px;
+    width:290px;
     height: 300px;
+    padding-top:15px;
+    padding-bottom: 15px;
     box-shadow: 4px 3px 20px black;
+}
+
+#captured_image{
+    width: 290px;
+    height:290px;
+    padding-bottom: 30px;
 }
 
 .snapshot_div button{
@@ -65,13 +70,7 @@ box-shadow: 5px 5px 18px white;
     border: 1px red solid;
 }
 
-.footnote_div{
-    position: fixed;
-    line-height: 3;
-    text-align: center;
-    bottom:0;
-    width:100%;
-}
+
 
 .object_name_display_div img{
     width:100px;
@@ -85,10 +84,4 @@ box-shadow: 5px 5px 18px white;
  text-align: center;
 }
 
-@keyframes example{
-    0% {right:0px; top:0px;}
-    25% {right:200px; top:0px;}
-    50% {right:200px; top:200px;}
-    75% {right:0px; top:200px;}
-    100% {right:0px; top:0px;}
-}
+

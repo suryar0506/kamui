@@ -1,5 +1,5 @@
 Webcam.set({
-    width:310,
+    width:290,
     height: 300,
     img_format: 'png',
     png_quality: 90,
